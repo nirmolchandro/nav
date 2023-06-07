@@ -1,0 +1,122 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header code start */
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .manu-bar i::before{
+        content: "\f00d";
+    }
+    .manu-bar{
+        display: block;
+    }
+    .manu-bar{
+        display: block;
+    }
+    .s-header ul{
+        position: fixed;
+        top: 59px;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        flex-direction: column;
+        background-color: cadetblue;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .s-header ul li{
+        margin: 8px 0;
+    }
+    .s-header ul li a{
+        font-size: 30px;
+        width: 80%;
+    }
+    /* header code end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header code start */
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .manu-bar i::before{
+        content: "\f00d";
+    }
+    .manu-bar{
+        display: block;
+    }
+    .manu-bar{
+        display: block;
+    }
+    .s-header ul{
+        position: fixed;
+        top: 59px;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        flex-direction: column;
+        background-color: cadetblue;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .s-header ul li{
+        margin: 8px 0;
+    }
+    .s-header ul li a{
+        font-size: 30px;
+        width: 92%;
+    }
+    /* header code end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header code start */
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .manu-bar i::before{
+        content: "\f00d";
+    }
+    .manu-bar{
+        display: block;
+    }
+    .s-header ul{
+        position: fixed;
+        top: 59px;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        flex-direction: column;
+        background-color: cadetblue;
+        text-align: center;
+        transition: all 0.7s ease;
+    }
+    .s-header ul li{
+        margin: 8px 0;
+    }
+    .s-header ul li a{
+        font-size: 30px;
+        width: 92%;
+    }
+    
+    
+    /* header code end */
+
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1299px) and (max-width: 1399.98px) { 
+
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
